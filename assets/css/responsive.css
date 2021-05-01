@@ -1,0 +1,88 @@
+/* pc */
+@media (min-width: 64em){
+    
+}
+
+/* tablet and mobile */
+@media (max-width: 63.9375em) {
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px 12px;
+        font-size: 16px;
+    }
+    .contact-infor {
+        line-height: 2rem;
+    }
+    .social-list {
+        font-size: 30px;
+    }
+    .social-list a {
+        margin: 0 8px;
+    }
+    .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+   
+}
+/* mobile */
+@media (max-width: 46.1875em) {
+    
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        /*42 - 48 px moi de tuong tac  */
+        padding: 5px 41px;
+    }
+    #header {
+    overflow: hidden;
+
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #header .menu-mobile-btn {
+        display: block;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+
+    .distance {
+        padding-top: 16px;
+    }
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    .distance-8 {
+        margin-top: 8px;
+    }
+    .contact-form .mt-16 {
+        padding: 15px 16px;
+    }
+
+}

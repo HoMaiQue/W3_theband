@@ -4,6 +4,7 @@
     <link rel="icon" href="https://www.vienamnhac.vn/Media/Default/BaiViet/bai-viet/nhac-moi/boicanh20170406.jpg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
@@ -22,9 +23,9 @@
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                         
                     </ul>
                 </li>
@@ -32,8 +33,12 @@
             <!-- end nav -->
 
             <!-- begin search button -->
-            <div class="search-botton">
+            <div class="search-button">
                 <i class="icon-search ti-search"></i>
+            </div>
+
+            <div id="mobile-menu" class="menu-mobile-btn">
+                <i class="icon-menu-btn ti-menu"></i>
             </div>
             <!-- end search button -->
 
@@ -60,19 +65,19 @@
                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="member-list">
-                    <div class="col col-third text-center ">
+                    <div class="col col-third text-center member-item  ">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/team/bandmember.jpg" alt="Name" class="member-img">
                     </div>
                 
                
-                    <div class="col col-third text-center ">
+                    <div class="col col-third text-center member-item ">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/team/bandmember.jpg" alt="Name" class="member-img">
                     </div>
                 
                 
-                    <div class="col col-third text-center ">
+                    <div class="col col-third text-center member-item ">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/team/bandmember.jpg" alt="Name" class="member-img">
                     </div>
@@ -95,31 +100,31 @@
     
                 </ul>
                 <div class="row place-list">
-                    <div class="col col-third">
+                    <div class="col col-third s-col-full ">
                         <img src="./assets/img/place/place-1.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">New York</h3>
                             <p class="place-time">Fri 27 Nov 2016</p>
                             <p class="place-dsc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="place-buy-btn">Buy Tickets</a>
+                            <a href="#" class="place-buy-btn s-full-width">Buy Tickets</a>
                         </div>
                     </div>
-                    <div class="col col-third">
+                    <div class="col col-third distance s-col-full">
                         <img src="./assets/img/place/place-2.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">Paris</h3>
                             <p class="place-time">Sat 28 Nov 2016</p>
                             <p class="place-dsc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="place-buy-btn">Buy Tickets</a>
+                            <a href="#" class="place-buy-btn s-full-width">Buy Tickets</a>
                         </div>
                     </div>
-                    <div class="col col-third">
+                    <div class="col col-third distance s-col-full">
                         <img src="./assets/img/place/place-3.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">San Francisco</h3>
                             <p class="place-time">Sun 29 Nov 2016</p>
                             <p class="place-dsc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="place-buy-btn">Buy Tickets</a>
+                            <a href="#" class="place-buy-btn s-full-width">Buy Tickets</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -134,18 +139,18 @@
                 <h2 class="section-heading">CONTACT</h2>
                 <p class=" section-subheading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-infor">
+                    <div class="col col-half s-col-full contact-infor">
                         <p><i class="ti-location-pin"></i>Chicago, US</p>
                         <p><i class="ti-mobile"></i>Phone: +00 151515</p>
                         <p><i class="ti-email"></i>Email: mail@mail.com</p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form distance">
                         <form action="">
                             <div class="row ">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full ">
                                     <input type="text" name="" required placeholder="Name" id="" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full distance-8">
                                     <input type="email" name="" required placeholder="Email" id="" class="form-control">
                                 </div>
                             </div>
@@ -155,7 +160,7 @@
                                 </div>
                               
                             </div>
-                            <input class="mt-16" type="submit" value="Send">  
+                            <input class="mt-16 s-full-width" type="submit" value="Send">  
                         </form>
                     </div>
                 </div>            
@@ -178,5 +183,33 @@
             Powered by <a href="">w3.css</a>
         </p>   
     </div>
+    <script> 
+        var headerElement = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = headerElement.clientHeight;
+        mobileMenu.onclick = function(e) {
+            var isClose = headerElement.clientHeight === headerHeight;
+            if(isClose) {
+                headerElement.style.height = 'auto';
+            }else {
+                headerElement.style.height = null;
+            }
+            
+        }
+// tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        menuItems.forEach(element => {
+            var menuItem = element;
+            menuItem.onclick = function(e) {
+            var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu) {
+                    e.preventDefault();
+                }else {
+                    headerElement.style.height = null;
+                }
+                
+            }
+        });
+    </script>
 </body>
 </html>
